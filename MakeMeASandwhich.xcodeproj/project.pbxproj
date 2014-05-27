@@ -15,12 +15,12 @@
 		4E124BA718EC6B9F009E6317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E124BA618EC6B9F009E6317 /* AppDelegate.m */; };
 		4E124BAA18EC6B9F009E6317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E124BA818EC6B9F009E6317 /* Main.storyboard */; };
 		4E124BAD18EC6B9F009E6317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E124BAC18EC6B9F009E6317 /* ViewController.m */; };
-		4E124BAF18EC6B9F009E6317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E124BAE18EC6B9F009E6317 /* Images.xcassets */; };
 		4E124BB618EC6B9F009E6317 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E124BB518EC6B9F009E6317 /* XCTest.framework */; };
 		4E124BB718EC6B9F009E6317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E124B9618EC6B9E009E6317 /* Foundation.framework */; };
 		4E124BB818EC6B9F009E6317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E124B9A18EC6B9E009E6317 /* UIKit.framework */; };
 		4E124BC018EC6B9F009E6317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E124BBE18EC6B9F009E6317 /* InfoPlist.strings */; };
 		4E124BC218EC6B9F009E6317 /* MakeMeASandwhichTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E124BC118EC6B9F009E6317 /* MakeMeASandwhichTests.m */; };
+		4E33F4BA18F5AEF5000F9271 /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E33F4B918F5AEF5000F9271 /* Ingredient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,8 @@
 		4E124BBD18EC6B9F009E6317 /* MakeMeASandwhichTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakeMeASandwhichTests-Info.plist"; sourceTree = "<group>"; };
 		4E124BBF18EC6B9F009E6317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E124BC118EC6B9F009E6317 /* MakeMeASandwhichTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeMeASandwhichTests.m; sourceTree = "<group>"; };
+		4E33F4B818F5AEF5000F9271 /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		4E33F4B918F5AEF5000F9271 /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +114,14 @@
 		4E124B9C18EC6B9E009E6317 /* MakeMeASandwhich */ = {
 			isa = PBXGroup;
 			children = (
-				4E124BA518EC6B9F009E6317 /* AppDelegate.h */,
-				4E124BA618EC6B9F009E6317 /* AppDelegate.m */,
 				4E124BA818EC6B9F009E6317 /* Main.storyboard */,
+				4E33F4B818F5AEF5000F9271 /* Ingredient.h */,
+				4E33F4B918F5AEF5000F9271 /* Ingredient.m */,
 				4E124BAB18EC6B9F009E6317 /* ViewController.h */,
 				4E124BAC18EC6B9F009E6317 /* ViewController.m */,
 				4E124BAE18EC6B9F009E6317 /* Images.xcassets */,
+				4E124BA518EC6B9F009E6317 /* AppDelegate.h */,
+				4E124BA618EC6B9F009E6317 /* AppDelegate.m */,
 				4E124B9D18EC6B9E009E6317 /* Supporting Files */,
 			);
 			path = MakeMeASandwhich;
@@ -228,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E124BAF18EC6B9F009E6317 /* Images.xcassets in Resources */,
 				4E124BA118EC6B9E009E6317 /* InfoPlist.strings in Resources */,
 				4E124BAA18EC6B9F009E6317 /* Main.storyboard in Resources */,
 			);
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E33F4BA18F5AEF5000F9271 /* Ingredient.m in Sources */,
 				4E124BAD18EC6B9F009E6317 /* ViewController.m in Sources */,
 				4E124BA718EC6B9F009E6317 /* AppDelegate.m in Sources */,
 				4E124BA318EC6B9E009E6317 /* main.m in Sources */,
@@ -460,6 +464,7 @@
 				4E124BC718EC6B9F009E6317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E124BC818EC6B9F009E6317 /* Build configuration list for PBXNativeTarget "MakeMeASandwhichTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				4E124BCA18EC6B9F009E6317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
